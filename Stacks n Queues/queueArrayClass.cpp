@@ -96,7 +96,7 @@ int main()
 	class Queue s;
 	int i;
 	do{
-		cout<<"1.Enqueue\t 2.Dequeue\t 3.Front\t 4.Rear\t 5.isEmpty\t 6.isFull()\t 7.display\n";
+		cout<<"1.Enqueue\t 2.Dequeue\t 3.Front\t 4.Rear\t 5.isEmpty\t 6.isFull\t 7.display\n";
 		cin>>i;
 		switch(i)
 		{

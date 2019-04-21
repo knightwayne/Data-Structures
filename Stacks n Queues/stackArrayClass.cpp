@@ -78,7 +78,7 @@ int main()
 	class Stack s;
 	int i;
 	do{
-		cout<<"1.Push\t 2.Pop\t 3.Peek\t 4.isEmpty\t 5.isFull()\t 6.display\n";
+		cout<<"1.Push\t 2.Pop\t 3.Peek\t 4.isEmpty\t 5.isFull\t 6.display\n";
 		cin>>i;
 		switch(i)
 		{
