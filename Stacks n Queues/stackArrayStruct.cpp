@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+//Stack Array Struct Implementation
 
 struct stackArray{
 	int top;

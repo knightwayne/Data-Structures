@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+//Queue Array Struct Implementation
 
 struct queueArray{
 	int size;
