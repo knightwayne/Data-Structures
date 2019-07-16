@@ -68,20 +68,6 @@ int Queue::front()
 {
 	if(frontP>rearP)
 	{
-		frontP--;
-		int x = arr[frontP];
-		frontP++;
-		return x;
-	}
-	else{
-		cout<<"Queue Underflow\n";
-		return -1;	
-	}	
-}
-int Queue::rear()
-{
-	if(frontP>rearP)
-	{
 		//rearP--;
 		int x = arr[rearP];
 		//rearP++;
@@ -90,7 +76,21 @@ int Queue::rear()
 	else{
 		cout<<"Queue Underflow\n";
 		return -1;	
-	}	
+	}		
+}
+int Queue::rear()
+{
+	if(frontP>rearP)
+	{
+		frontP--;
+		int x = arr[frontP];
+		frontP++;
+		return x;
+	}
+	else{
+		cout<<"Queue Underflow\n";
+		return -1;	
+	}
 }
 int main()
 {
