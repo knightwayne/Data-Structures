@@ -203,8 +203,9 @@ int main()
 	while(i--){
 		insertBegin(&head);
 	}
+	//display(head);
 	while(1){
-		deleteMiddle(&head);
+		deleteEnd(&head);
 	}
 	
 }

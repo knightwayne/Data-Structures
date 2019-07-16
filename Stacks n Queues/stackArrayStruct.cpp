@@ -5,7 +5,7 @@ using namespace std;
 struct stackArray{
 	int top;
 	int size;
-	int *arr;
+	int *arr;	//array pointer
 };
 /*
 //Mystackoverflow - all 3 methods to deal with it, difference in C/C++ way of passing

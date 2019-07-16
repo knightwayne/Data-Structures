@@ -61,13 +61,6 @@ int dequeue(queueArray* *q)
 void frontPeek(queueArray* *q)
 {
 	if((*q)->front<=(*q)->rear)
-	cout<<"(Peek Front) Queue Empty\n";
-	else
-	cout<<(*q)->arr[(*q)->front]<<endl;
-}
-void rearPeek(queueArray* *q)
-{
-	if((*q)->front<=(*q)->rear)
 	cout<<"(Peek Rear) Queue Empty\n";
 	else
 	{
@@ -75,7 +68,13 @@ void rearPeek(queueArray* *q)
 		cout<<(*q)->arr[(*q)->rear]<<endl;	
 		(*q)->rear--;
 	}
-	
+}
+void rearPeek(queueArray* *q)
+{
+	if((*q)->front<=(*q)->rear)
+	cout<<"(Peek Front) Queue Empty\n";
+	else
+	cout<<(*q)->arr[(*q)->front]<<endl;
 }
 bool isEmpty(queueArray* *q)
 {
