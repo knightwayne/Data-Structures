@@ -205,7 +205,11 @@ int main()
 	}
 	//display(head);
 	while(1){
-		deleteEnd(&head);
+		//deleteEnd(&head);
+		curr=deleteBegin1(head);
+		cout<<"xx\n";
+		display(head);
+		//display(curr);
 	}
 	
 }
